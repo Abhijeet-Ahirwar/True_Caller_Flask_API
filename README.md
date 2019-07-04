@@ -1,2 +1,2 @@
-# True_Caller_Flask_API
-Flask Server which run locally over Desktop having features like true caller 
+# Flask_Api_Like_TrueCaller
+User can Register,search and Block a existing or non existing user based on name or phone number.

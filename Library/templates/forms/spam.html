@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+/* Add padding to containers */
+.container {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #007bff;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 7%;
+    border-radius: 5px;
+}
+/* Full-width input fields */
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="" method="POST">
+  <div class="container">
+    <h1 style="text-align: center;">Spam A User</h1>
+    <hr>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" >
+    <br/>
+
+    <label for="num"><b>Phone Number</b></label>
+    <input type="number" placeholder="Enter Phone Number" name="num" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Submit</button>
+  </div>
+  
+  
+</form>
+
+</body>
+</html>

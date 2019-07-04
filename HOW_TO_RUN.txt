@@ -1,0 +1,47 @@
+Open command prompt or linux shell
+then,
+install python packages 
+1.flask,
+2.request,
+3.config
+using command <pip install package_name>
+
+
+now, change the directory to library
+
+IN LIBRARY FOLDER
+
+1. File named: Register.py
+	is used to add a new user
+	to run use command <python Register.py>
+	and then type the url  http://127.0.0.1:2010 in your browser.
+	fill the form and press enter.
+
+
+**AT ANY POINT IF YOU WANT TO CHECK THE GLOBAL DATABASE RUN THE FILE test_global_database.py
+  using the command <python test_global_database.py>
+  this will the show the database information
+
+
+
+2. File named: Spam.py
+	is used to spam someone 
+	to run use command <python spam.py>
+	and then type the url  http://127.0.0.1:2010 in your browser.
+	fill the form and press enter.
+
+**AT ANY POINT IF YOU WANT TO CHECK THE SPAM DATABASE RUN THE FILE test_spam_database.py
+  using the command <python test_spam_database.py>
+  this will the show the spam user information
+
+
+
+3.File named: search.py
+	is used to search the user 
+	to run use command <python spam.py>
+	and then type the url  http://127.0.0.1:2010 in your browser.
+	fill the form and press enter.
+	information will be shown.
+
+
+**Sqlite3 database is used.
